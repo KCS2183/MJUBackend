@@ -39,7 +39,7 @@ int main()
             cout << "Server Recevied: " << buf << endl;
 
             numBytes = sendto(s, buf, numBytes, 0, (struct sockaddr *)&sin, sizeof(sin));
-            cout << "Server Sent: " << numBytes << endl;
+            cout << "Server Sent: \"" << buf << "\"" << ", Data Bytes: " << numBytes << endl;
         }
     }
 
