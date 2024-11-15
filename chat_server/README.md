@@ -18,11 +18,11 @@ server.py 는 다음 실행 인자들을 사용할 수 있습니다.
 ### JSON 을 이용해서 메시지를 주고 받을 예정이고, 채팅 서버를 10207 번 포트에, 쓰레드를 10개 띄우고 싶은 경우
 
 ```
-$ python3 server.py --port=10207 --format=json --thread=10
+$ python3 ./server.py --port=10207 --format=json --thread=10
 ```
 
 ### Protobuf 를 이용해서 메시지를 주고 받을 예정이고, 채팅 서버를 10207 번 포트에, 쓰레드를 10개 띄우고 싶은 경우
 
 ```
-$ python3 server.py --port=10207 --format=protobuf --thread=10
+$ python3 ./server.py --port=10207 --format=protobuf --thread=10
 ```
