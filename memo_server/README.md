@@ -72,11 +72,6 @@ $ docker start mysql207
 
 ## **index.html 이 호출하는 REST API 들**
 
-```json
-{"text": "메모내용"}
-
-```
-
 `index.html` 은 `memo.py` 에 다음 API 들을 호출합니다.
 
 - `GET /login` : authorization code 를 얻어오는 URL 로 redirect 시켜줄 것을 요청합니다. (아래 [네이버 로그인 API 호출](https://github.com/mjubackend/memo_server?tab=readme-ov-file#%EB%84%A4%EC%9D%B4%EB%B2%84-%EB%A1%9C%EA%B7%B8%EC%9D%B8-API-%ED%98%B8%EC%B6%9C) 설명 참고)
